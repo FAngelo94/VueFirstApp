@@ -32,3 +32,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Debug
+Added Vue debugger in the ispector to see the Vue state, amazing tool!

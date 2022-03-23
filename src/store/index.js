@@ -1,9 +1,20 @@
 import { createStore } from "vuex";
 
 export default createStore({
-  state: {},
+  state: {
+    count: 0,
+  },
   getters: {},
-  mutations: {},
-  actions: {},
+  mutations: {
+    updateCount(state, value) {
+      state.count = value;
+    },
+  },
+  actions: {
+    // update countin state
+    updateCount(payload) {
+      this.commit("updateCount", payload);
+    },
+  },
   modules: {},
 });
