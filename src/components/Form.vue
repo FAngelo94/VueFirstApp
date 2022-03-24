@@ -33,6 +33,7 @@
       </select>
       {{ multiSelect }}
     </p>
+    <p>data: {{ $data }}</p>
   </form>
 </template>
 
