@@ -1,5 +1,9 @@
 # vue-first-app
 
+## Official Documentation
+- [Vue.js](https://vuejs.org/api/)
+- Particular usefull: [Buil-in-directives](https://vuejs.org/api/built-in-directives.html)
+
 ## Project setup
 ```
 npm install
