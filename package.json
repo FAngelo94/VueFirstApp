@@ -8,7 +8,7 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "deploy": "git push -f git@github.com:FAngelo94/VueFirstApp.git main:gh-pages"
+    "deploy": "git push -f git@github.com:FAngelo94/VueFirstApp.git master:gh-pages"
   },
   "dependencies": {
     "core-js": "^3.8.3",
